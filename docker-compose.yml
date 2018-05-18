@@ -1,0 +1,9 @@
+version: '3'
+services:
+  php:
+    image: php:7.0-apache
+    restart: always
+    volumes:
+      - "./myapp:/var/www/html"
+    ports:
+      - "8080:80"
