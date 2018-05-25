@@ -4,9 +4,9 @@ services:
     image: php:7.0-apache
     restart: always
     volumes:
-      - "./myapp:/var/www/html"
+      - "./www:/var/www/html"
     ports:
-      - "8080:80"
+      - "8000:80"
 
   db:
     image: mysql:5.7.10
