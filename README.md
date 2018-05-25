@@ -1,3 +1,3 @@
 # Docker-php
 
-Templatka Dockera dla php
+"Szkielet" konfiguracji dockera do uruchamiania serwera apache z php, mysql i phpmyadmin
